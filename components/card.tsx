@@ -74,57 +74,58 @@ export function Card({ card, onSwipe, onTap, isInteractive }: CardProps) {
   }
 
   return (
-    <div
-      ref={cardRef}
-      className={`
-        w-64 h-96 bg-white rounded-lg shadow-lg cursor-pointer
-        select-none
-        ${isInteractive ? 'touch-none' : 'pointer-events-none'}
-      `}
-      style={{
-        transform: `translate3d(${currentX}px, 0, 0) ${isDragging ? 'scale(1.00)' : ''}`,
-        willChange: 'transform',
-        transition: isDragging ? 'none' : 'transform 0.2s ease-out',
-      }}
-      onPointerDown={handlePointerDown}
-      onPointerMove={handlePointerMove}
-      onPointerUp={handlePointerUp}
-      onPointerCancel={handlePointerUp}
-    >
-      <div className="relative w-full h-full rounded-lg overflow-hidden">
-        {/* === Video or Image Background === */}
-        {card.videoUrl ? (
-          <video
-            src={card.videoUrl}
-            className="w-full h-full object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
-        ) : card.imageUrl ? (
+      <div
+        ref={cardRef}
+        className={`
+          relative w-64 h-96 rounded-lg overflow-hidden shadow-lg select-none cursor-pointer
+          ${isInteractive ? 'touch-none' : 'pointer-events-none'}
+        `}
+        style={{
+          transform: `translate3d(${currentX}px, 0, 0) ${isDragging ? 'scale(1.00)' : ''}`,
+          willChange: 'transform',
+          transition: isDragging ? 'none' : 'transform 0.2s ease-out',
+        }}
+        onPointerDown={handlePointerDown}
+        onPointerMove={handlePointerMove}
+        onPointerUp={handlePointerUp}
+        onPointerCancel={handlePointerUp}
+      >
+        <div className="relative w-full h-full rounded-lg overflow-hidden">
+          {/* === Video or Image Background === */}
+          {card.videoUrl ? (
+            <video
+              src={card.videoUrl}
+              className="w-full h-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+            />
+          ) : card.imageUrl ? (
+            <Image
+              src={card.imageUrl}
+              alt={card.title}
+              fill
+              className="object-cover"
+              draggable={false}
+            />
+          ) : (
+            <div className="w-full h-full bg-gray-200 flex items-center justify-center text-sm text-gray-500 z-10">
+              No media
+            </div>
+          )}
+        </div>
+        <div className="absolute inset-0 z-10 pointer-events-none">
           <Image
-            src={card.imageUrl}
-            alt={card.title}
-            fill
-            className="object-cover"
+            src="https://lh3.googleusercontent.com/d/1ftr-kaNhCRloRNVU9EqHbueZqxKMCrCI"
+            alt="Card Overlay"
+            className="w-full h-full object-contain"
+            width={256}
+            height={384}
             draggable={false}
           />
-        ) : (
-          <div className="w-full h-full bg-gray-200 flex items-center justify-center text-sm text-gray-500">
-            No media
-          </div>
-        )}
-
-        {/* === PNG Overlay === */}
-        <Image
-          src="https://lh3.googleusercontent.com/d/1ftr-kaNhCRloRNVU9EqHbueZqxKMCrCI"
-          alt="Card Overlay"
-          fill
-          className="absolute top-0 left-0 w-full h-full pointer-events-none object-contain"
-          draggable={false}
-        />
+        </div>
       </div>
-    </div>
   )
 }

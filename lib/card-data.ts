@@ -2,7 +2,7 @@
 export const cardData = [
   {
     title: "Fake ÜÜ Eier",
-    videoUrl: "/vid.MOV",
+    videoUrl: "/vid.mp4",
     storyText: "Das war die Zeit als wir übels Ü-Eier und Kinder Joy gefeiert haben warum auch immer. Wir haben diese Fake Ü-Eier mit Barbie und Hotwheels gehabt, dann Kinder-Joy mit Mario und Luigi, dann Barbie Ü-Eier. Und das Skateboard war das krasseste was man kriegen konnte und wie haben es einfach beide bekommen B)"
   },
   {
