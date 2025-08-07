@@ -61,6 +61,7 @@ export function CardStack() {
           <Swiper
             slidesPerView="auto"
             spaceBetween={20}
+            virtual
             onSlideChange={handleSlideChange}
             className="w-full"
           >
