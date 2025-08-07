@@ -61,7 +61,6 @@ export function CardStack() {
           <Swiper
             slidesPerView="auto"
             spaceBetween={20}
-            virtual
             onSlideChange={handleSlideChange}
             className="w-full"
           >
@@ -96,7 +95,7 @@ export function CardStack() {
       </div>
 
       {/* Fortschrittsanzeige */}
-      <div className="mt-20 text-center bg-gray-100">
+      <div className="mt-20 text-center">
         <p className="text-sm text-gray-500">
           {currentCardIndex + 1} of {cardData.length}
         </p>
