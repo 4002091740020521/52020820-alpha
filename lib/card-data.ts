@@ -1,8 +1,8 @@
 // Card data array with 55 custom playing cards
 export const cardData = [
   {
-    title: "Fake ÜÜÜ Eier",
-    videoUrl: "https://player.cloudinary.com/embed/?cloud_name=dac9m9xh4&public_id=IMG_6159_axkqdj&profile=cld-looping",
+    title: "Fake ÜÜ Eier",
+    videoUrl: "/vid.MOV",
     storyText: "Das war die Zeit als wir übels Ü-Eier und Kinder Joy gefeiert haben warum auch immer. Wir haben diese Fake Ü-Eier mit Barbie und Hotwheels gehabt, dann Kinder-Joy mit Mario und Luigi, dann Barbie Ü-Eier. Und das Skateboard war das krasseste was man kriegen konnte und wie haben es einfach beide bekommen B)"
   },
   {

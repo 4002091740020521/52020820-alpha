@@ -94,12 +94,13 @@ export function Card({ card, onSwipe, onTap, isInteractive }: CardProps) {
       <div className="relative w-full h-full rounded-lg overflow-hidden">
         {/* === Video or Image Background === */}
         {card.videoUrl ? (
-          <iframe
+          <video
             src={card.videoUrl}
-            className="absolute inset-0 w-full h-full"
-            frameBorder="0"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         ) : card.imageUrl ? (
           <Image
