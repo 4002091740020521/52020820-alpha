@@ -1,278 +1,188 @@
-// Card data array with 55 custom playing cards
+// Card data array with custom playing cards
 export const cardData = [
   {
-    title: "Fake ÜÜ Eier",
-    videoUrl: "/vid.mp4",
-    storyText: "Das war die Zeit als wir übels Ü-Eier und Kinder Joy gefeiert haben warum auch immer. Wir haben diese Fake Ü-Eier mit Barbie und Hotwheels gehabt, dann Kinder-Joy mit Mario und Luigi, dann Barbie Ü-Eier. Und das Skateboard war das krasseste was man kriegen konnte und wie haben es einfach beide bekommen B)"
-  },
-  {
-    title: "King of Spades",
-    imageUrl: "/pik_K.jpg",
-    storyText: "The King of Spades embodies wisdom, authority, and strategic thinking. This powerful figure represents mastery over one's domain through careful planning and decisive action. He reminds us that true leadership comes not from force, but from understanding the delicate balance between power and responsibility."
-  },
-  {
-    title: "Queen of Diamonds",
-    imageUrl: "/karo_D.jpg",
-    storyText: "The Queen of Diamonds represents material wisdom and practical intelligence. She is the embodiment of someone who has learned to navigate the material world with grace and efficiency. Her presence suggests that prosperity comes through careful resource management and intelligent decision-making."
-  },
-  {
-    title: "Jack of Clubs",
-    imageUrl: "/kreuz_J.jpg",
-    storyText: "The Jack of Clubs is the eternal student, always eager to learn and grow. This card represents youthful energy channeled into creative pursuits and intellectual exploration. He reminds us that curiosity and enthusiasm are the keys to unlocking our potential and discovering new paths forward."
-  },
-  {
-    title: "Ten of Hearts",
-    imageUrl: "/herz_10.jpg",
-    storyText: "The Ten of Hearts signifies emotional fulfillment and family harmony. This card represents the completion of an emotional cycle, bringing joy, contentment, and lasting happiness. It often appears when relationships reach a new level of understanding and mutual support."
-  },
-  {
-    title: "Nine of Spades",
-    imageUrl: "/pik_9.jpg",
-    storyText: "The Nine of Spades represents the weight of worry and the burden of overthinking. This card appears when anxiety clouds our judgment and prevents us from seeing solutions clearly. It reminds us that most of our fears exist only in our minds and that dawn always follows the darkest night."
-  },
-  {
-    title: "Eight of Diamonds",
-    imageUrl: "/karo_8.jpg",
-    storyText: "The Eight of Diamonds celebrates the mastery of craft and the dedication to excellence. This card represents the rewards that come from honing one's skills through persistent practice and attention to detail. It encourages us to take pride in our work and strive for continuous improvement."
-  },
-  {
-    title: "Seven of Clubs",
-    imageUrl: "/kreuz_7.jpg",
-    storyText: "The Seven of Clubs represents perseverance in the face of challenges. This card appears when we must stand our ground and defend our beliefs or achievements. It reminds us that success often requires us to overcome obstacles and that our greatest victories come after our most difficult battles."
-  },
-  {
-    title: "Six of Hearts",
-    imageUrl: "/herz_6.jpg",
-    storyText: "The Six of Hearts evokes nostalgia and the sweet memories of simpler times. This card represents the importance of honoring our past while not becoming trapped by it. It suggests that looking back with gratitude can provide the foundation for building a more meaningful future."
-  },
-  {
-    title: "Five of Spades",
-    imageUrl: "/pik_5.jpg",
-    storyText: "The Five of Spades represents conflict and the sting of defeat. This card appears during times of struggle when we feel overwhelmed by opposition. However, it also teaches us that every setback contains valuable lessons and that our greatest growth often comes from our most challenging experiences."
-  },
-  {
-    title: "Four of Diamonds",
-    imageUrl: "/karo_4.jpg",
-    storyText: "The Four of Diamonds represents stability and the security that comes from building solid foundations. This card encourages us to focus on creating lasting structures in our lives, whether financial, emotional, or spiritual. It reminds us that true wealth comes from having enough, not from having everything."
-  },
-  {
-    title: "Three of Clubs",
-    imageUrl: "/kreuz_3.jpg",
-    storyText: "The Three of Clubs celebrates collaboration and the power of working together toward common goals. This card represents the early stages of group projects where individual talents combine to create something greater than the sum of its parts. It encourages us to share our gifts and learn from others."
-  },
-  {
-    title: "Two of Hearts",
+    title: "Herz 2",
     imageUrl: "/herz_2.jpg",
-    storyText: "The Two of Hearts represents the beautiful dance of partnership and mutual attraction. This card signifies the moment when two souls recognize their compatibility and choose to walk together. It celebrates the balance, harmony, and shared understanding that forms the foundation of lasting relationships."
+    storyText: "Könnte ich musik dazupacken, würde ich jetzt einen Song von southstarr darunterlegen, weil wir haben das genau in dem Moment gehört. Ich weiß noch, dass ich mich genau in dem Moment so frei gefühlt habe mit dir."
   },
   {
-    title: "Ace of Spades",
-    imageUrl: "/pik_A.jpg",
-    storyText: "The Ace of Spades is the card of transformation and new intellectual beginnings. Often misunderstood as ominous, it actually represents the power to cut through illusion and see truth clearly. This card appears when we're ready to embrace profound change and step into our authentic power."
-  },
-  {
-    title: "King of Hearts",
-    imageUrl: "/herz_K.jpg",
-    storyText: "The King of Hearts embodies emotional maturity and compassionate leadership. This wise ruler has learned to balance strength with kindness, making decisions from both the head and the heart. He represents the ideal of power tempered by love and wisdom guided by empathy."
-  },
-  {
-    title: "Queen of Spades",
-    imageUrl: "/pik_D.jpg",
-    storyText: "The Queen of Spades represents independence, sharp intellect, and the courage to stand alone when necessary. She is a figure of strength who has learned to rely on her own wisdom and judgment. This card encourages us to trust our intuition and not be swayed by others' opinions when we know our truth."
-  },
-  {
-    title: "Jack of Diamonds",
-    imageUrl: "/karo_J.jpg",
-    storyText: "The Jack of Diamonds is the messenger of opportunity and material advancement. This card represents the arrival of news or chances that could improve our financial or material situation. It encourages us to be alert to possibilities and ready to act when fortune presents itself."
-  },
-  {
-    title: "Ten of Spades",
-    imageUrl: "/pik_10.jpg",
-    storyText: "The Ten of Spades represents the completion of a difficult cycle and the wisdom gained through hardship. While this card often signifies endings, it also promises that these conclusions are necessary for new growth. It reminds us that every ending is also a beginning in disguise."
-  },
-  {
-    title: "Nine of Hearts",
-    imageUrl: "/herz_9.jpg",
-    storyText: "The Nine of Hearts is known as the 'wish card,' representing the fulfillment of our deepest desires. This card appears when our emotional and spiritual needs are being met, bringing a sense of contentment and joy. It reminds us to appreciate the abundance already present in our lives."
-  },
-  {
-    title: "Eight of Spades",
-    imageUrl: "/pik_8.jpg",
-    storyText: "The Eight of Spades represents feeling restricted or trapped by circumstances. This card appears when we feel limited by external forces or our own self-imposed boundaries. However, it also suggests that these limitations are often more mental than real, and freedom comes through changing our perspective."
-  },
-  {
-    title: "Seven of Diamonds",
-    imageUrl: "/karo_7.jpg",
-    storyText: "The Seven of Diamonds represents patience and long-term investment in our goals. This card appears when we need to trust the process and allow our efforts to mature over time. It reminds us that the most valuable achievements often require sustained effort and faith in the eventual outcome."
-  },
-  {
-    title: "Six of Clubs",
-    imageUrl: "/kreuz_6.jpg",
-    storyText: "The Six of Clubs represents victory and public recognition for our achievements. This card signifies a time when our efforts are acknowledged and celebrated by others. It encourages us to accept praise gracefully while remaining humble and continuing to strive for excellence."
-  },
-  {
-    title: "Five of Hearts",
-    imageUrl: "/herz_5.jpg",
-    storyText: "The Five of Hearts represents emotional disappointment and the process of healing from loss. This card appears during times of heartbreak or when our expectations haven't been met. It reminds us that grief is a natural part of growth and that healing allows us to love more deeply."
-  },
-  {
-    title: "Four of Spades",
-    imageUrl: "/pik_4.jpg",
-    storyText: "The Four of Spades represents the need for rest, contemplation, and mental recuperation. This card appears when we've been pushing too hard and need to step back to regain our perspective. It encourages us to embrace stillness as a source of strength and clarity."
-  },
-  {
-    title: "Three of Diamonds",
-    imageUrl: "/karo_3.jpg",
-    storyText: "The Three of Diamonds represents the early stages of skill development and collaborative learning. This card appears when we're building expertise through practice and guidance from others. It encourages us to remain open to feedback and to value the learning process as much as the final result."
-  },
-  {
-    title: "Two of Spades",
-    imageUrl: "/pik_2.jpg",
-    storyText: "The Two of Spades represents difficult decisions and the challenge of choosing between two paths. This card appears when we face a crossroads that requires careful consideration of our values and priorities. It reminds us that some decisions can't be made with logic alone and require us to trust our inner wisdom."
-  },
-  {
-    title: "Ace of Diamonds",
-    imageUrl: "/karo_A.jpg",
-    storyText: "The Ace of Diamonds represents new material opportunities and the seed of future prosperity. This card signifies the beginning of a venture that has the potential to improve our material circumstances. It encourages us to plant seeds wisely and nurture them with consistent effort."
-  },
-  {
-    title: "King of Clubs",
-    imageUrl: "/kreuz_K.jpg",
-    storyText: "The King of Clubs embodies wisdom, teaching, and inspirational leadership. This figure represents someone who leads through knowledge and example rather than force. He reminds us that true authority comes from understanding and that the greatest leaders are also the greatest servants."
-  },
-  {
-    title: "Queen of Hearts",
-    imageUrl: "/herz_D.jpg",
-    storyText: "The Queen of Hearts represents unconditional love, nurturing, and emotional intelligence. She embodies the divine feminine principle of caring and compassion. This card encourages us to lead with our hearts and to create environments where others can flourish and feel truly seen and valued."
-  },
-  {
-    title: "Jack of Hearts",
-    imageUrl: "/herz_J.jpg",
-    storyText: "The Jack of Hearts represents romantic idealism and creative expression. This card embodies the artist, the dreamer, and the lover who sees beauty in the world and seeks to share it with others. It encourages us to maintain our sense of wonder and to express our authentic selves through creative endeavors."
-  },
-  {
-    title: "Ten of Clubs",
-    imageUrl: "/kreuz_10.jpg",
-    storyText: "The Ten of Clubs represents the weight of responsibility and the burden of carrying too much alone. This card appears when we've taken on more than we can handle and need to learn the art of delegation. It reminds us that asking for help is a sign of wisdom, not weakness."
-  },
-  {
-    title: "Nine of Diamonds",
-    imageUrl: "/karo_9.jpg",
-    storyText: "The Nine of Diamonds represents material success and the achievement of financial goals. This card signifies a time of prosperity and the ability to enjoy the fruits of our labor. It encourages us to appreciate our achievements while remaining generous and mindful of those less fortunate."
-  },
-  {
-    title: "Eight of Hearts",
-    imageUrl: "/herz_8.jpg",
-    storyText: "The Eight of Hearts represents the difficult but necessary process of moving on from situations that no longer serve us. This card appears when we must leave behind familiar but limiting circumstances to pursue our true path. It reminds us that growth often requires courage to step into the unknown."
-  },
-  {
-    title: "Seven of Hearts",
-    imageUrl: "/herz_7.jpg",
-    storyText: "The Seven of Hearts represents the realm of fantasy and the danger of losing ourselves in illusions. This card appears when we need to distinguish between realistic hopes and wishful thinking. It encourages us to dream big while keeping our feet firmly planted on the ground."
-  },
-  {
-    title: "Six of Spades",
-    imageUrl: "/pik_6.jpg",
-    storyText: "The Six of Spades represents transition and the journey toward calmer waters. This card appears when we're moving away from turbulent times toward greater stability and peace. It reminds us that every journey has its challenges, but persistence leads to better destinations."
-  },
-  {
-    title: "Five of Clubs",
-    imageUrl: "/kreuz_5.jpg",
-    storyText: "The Five of Clubs represents competition and the struggle to assert our ideas or position. This card appears during times of rivalry or when we must fight for recognition. It reminds us that healthy competition can drive innovation, but we must not lose sight of our values in the pursuit of victory."
-  },
-  {
-    title: "Four of Hearts",
-    imageUrl: "/herz_4.jpg",
-    storyText: "The Four of Hearts represents emotional apathy and the danger of taking our blessings for granted. This card appears when we've become complacent in our relationships or lost appreciation for what we have. It encourages us to rekindle our gratitude and actively nurture our connections."
-  },
-  {
-    title: "Three of Spades",
-    imageUrl: "/pik_3.jpg",
-    storyText: "The Three of Spades represents heartbreak and the pain of separation. This card appears during times of emotional upheaval when relationships end or trust is broken. While painful, it also represents the opportunity for healing and the development of greater emotional resilience."
-  },
-  {
-    title: "Two of Diamonds",
-    imageUrl: "/karo_2.jpg",
-    storyText: "The Two of Diamonds represents the challenge of juggling multiple priorities and maintaining balance in our material affairs. This card appears when we're managing various responsibilities or opportunities simultaneously. It encourages us to stay flexible and prioritize what truly matters."
-  },
-  {
-    title: "Ace of Clubs",
-    imageUrl: "/kreuz_A.jpg",
-    storyText: "The Ace of Clubs represents the spark of inspiration and the birth of new ideas. This card signifies a moment of creative breakthrough or intellectual awakening. It encourages us to trust our innovative impulses and to have the courage to pursue unconventional paths."
-  },
-  {
-    title: "King of Diamonds",
-    imageUrl: "/karo_K.jpg",
-    storyText: "The King of Diamonds represents mastery in the material world and the wisdom that comes from successful enterprise. This figure has learned to create value and manage resources effectively. He reminds us that true wealth includes not just material success, but also the ability to use our resources for the greater good."
-  },
-  {
-    title: "Queen of Clubs",
-    imageUrl: "/kreuz_D.jpg",
-    storyText: "The Queen of Clubs represents self-confidence and the power of independent thinking. She embodies someone who trusts her own judgment and isn't swayed by popular opinion. This card encourages us to develop our own philosophy and to have the courage to stand by our convictions."
-  },
-  {
-    title: "Jack of Spades",
-    imageUrl: "/pik_J.jpg",
-    storyText: "The Jack of Spades represents ambitious youth and the drive to prove oneself. This card embodies someone who is eager to make their mark on the world, sometimes through challenging established authority. It reminds us that youthful energy, when properly channeled, can be a powerful force for positive change."
-  },
-  {
-    title: "Ten of Diamonds",
-    imageUrl: "/karo_10.jpg",
-    storyText: "The Ten of Diamonds represents family wealth and the legacy we leave for future generations. This card signifies not just material inheritance, but also the values, wisdom, and traditions we pass down. It encourages us to think beyond our own lifetime and consider the impact of our actions on those who come after us."
-  },
-  {
-    title: "Nine of Clubs",
-    imageUrl: "/kreuz_9.jpg",
-    storyText: "The Nine of Clubs represents inner strength and the resilience to overcome obstacles. This card appears when we're being tested and must draw upon our deepest reserves of courage and determination. It reminds us that we are stronger than we know and capable of surviving any storm."
-  },
-  {
-    title: "Eight of Clubs",
-    imageUrl: "/kreuz_8.jpg",
-    storyText: "The Eight of Clubs represents rapid progress and swift movement toward our goals. This card appears when events are unfolding quickly and we must act decisively to seize opportunities. It encourages us to trust our instincts and move forward with confidence when the time is right."
-  },
-  {
-    title: "Seven of Spades",
-    imageUrl: "/pik_7.jpg",
-    storyText: "The Seven of Spades represents deception and the need to be cautious of hidden motives. This card appears when not everything is as it seems and we must rely on our intuition to navigate tricky situations. It reminds us to trust our instincts and to look beyond surface appearances."
-  },
-  {
-    title: "Six of Diamonds",
-    imageUrl: "/karo_6.jpg",
-    storyText: "The Six of Diamonds represents generosity and the flow of giving and receiving. This card appears when we're in a position to help others or when assistance comes to us in our time of need. It reminds us that true prosperity includes the ability to share our abundance with others."
-  },
-  {
-    title: "Five of Diamonds",
-    imageUrl: "/karo_5.jpg",
-    storyText: "The Five of Diamonds represents financial worry and material insecurity. This card appears during times of economic hardship or when we fear for our material well-being. While challenging, it also teaches us to distinguish between our needs and wants and to find security in non-material sources."
-  },
-  {
-    title: "Four of Clubs",
-    imageUrl: "/kreuz_4.jpg",
-    storyText: "The Four of Clubs represents solid foundations and reliable structures in our intellectual and creative pursuits. This card appears when we've built something lasting through consistent effort and careful planning. It encourages us to appreciate the stability we've created while remaining open to growth."
-  },
-  {
-    title: "Three of Hearts",
+    title: "Herz 3",
     imageUrl: "/herz_3.jpg",
-    storyText: "The Three of Hearts represents celebration, friendship, and community joy. This card appears during times of shared happiness when we come together with others to celebrate life's pleasures. It reminds us that joy is multiplied when shared and that community connections enrich our lives immeasurably."
+    storyText: "Das war als ich das erste mal richtig bei dir gechillt habe. Ich war so unnormal aufgeregt und fand das so krass, dass ich erstmal ein Foto machen musste."
   },
   {
-    title: "Two of Clubs",
+    title: "Herz 5",
+    imageUrl: "/herz_5.jpg",
+    storyText: "Bei dem Bild habe ich uns zum ersten Mal richtig in die Stadt gefahren um einem Kinofilm zu schauen. Ich war so nervös bei der Fahrt. Hoffentlich fahre ich inzwischen bisschen besser wenigstens."
+  },
+  {
+    title: "Herz 6",
+    imageUrl: "/herz_6.jpg",
+    storyText: "An den Sommer werde ich mich glaube ich immer erinnern. Wir haben ultra viel erlebt, vorallem obwohl wir nicht in den Urlaub geflogen sind."
+  },
+  {
+    title: "Herz 7",
+    imageUrl: "/herz_7.jpg",
+    storyText: "Das Bild habe ich nicht selber geschossen sondern von deinem Pinterest. Aber es erinnert mich so krass an dich. Deine Farbe ist absolut ein richtig lebendiges Orange. Und dein Getränk Aperol. Das strahlt alles aus, was du bist."
+  },
+  {
+    title: "Herz 9",
+    imageUrl: "/herz_9.jpg",
+    storyText: "Für mich sind Vögel dein Tier. Wenn ich Vögel sehe denke ich an dich, und natürlich vorallem bei Wellensittichen. Ohne dich hätte ich Vögel nie aus der Perspektive gesehen, wie ich sie heute sehe."
+  },
+  {
+    title: "Herz 10",
+    imageUrl: "/herz_10.jpg",
+    storyText: "Das war der letzte Abend in Palermo. Nebenan hatten die so mega laut Musik an und wir waren gerade vom Pizzaessen gekommen (Wenn ich mich richtig erinnere). Ich hatte die Kamera in der Hand und habe relativ spontan ein Bild von dir gemacht, wie du auf dem Bett lagst. Und rausgekommen ist einer der attraktivsten Bilder die ich je gesehen habe."
+  },
+  {
+    title: "Herz J",
+    imageUrl: "/herz_J.jpg",
+    storyText: "Ich würde gefühlt alles geben um nochmal in diesem Moment zu sein. Mit dir am Palermo am Strand, nach der lustigsten Busfahrt mit tausend locals und frische echte italienische Pizza."
+  },
+  {
+    title: "Herz K",
+    imageUrl: "/herz_K.jpg",
+    storyText: "100% hast du gerade draufgedrückt weil du nicht weißt, was der random Screenshot bedeuten soll. Aber das war eine der ersten Nachrichten (wenn nicht die erste), nachdem wir so über den Frühling 2022 keinen Kontakt hatten. Glaube mein Körper hatte Dopamine Overdose als ich gesehen habe, dass du mir geschrieben hast."
+  },
+  {
+    title: "Karo 2",
+    imageUrl: "/karo_2.jpg",
+    storyText: "Das war so ein erlebnisreicher Abend: Du streitest dich mit deinen Eltern wegen Barcelona, dann sind wir bei mir und ich mache dir Spiegeleier und als nächstes auf der Party wo alle aus unserem Jahrgang dabei waren. Und dann bei mir übernachtet und nächsten Morgen geflogen. Und genau dieses Freiheitsgefühl strahlst du immer ultra aus."
+  },
+  {
+    title: "Karo 3",
+    imageUrl: "/karo_3.jpg",
+    storyText: "Das Bild braucht keine Erklärung. Wenn ich noch einmal ausversehen salsiccia Pizza bestelle jage ich den Pizza Laden in die Luft. Aber eigentlich ist ehrlich voll lecker."
+  },
+  {
+    title: "Karo 4",
+    imageUrl: "/karo_4.jpg",
+    storyText: "Ich weiß leider genau nicht mehr wie der Typ hieß, den wir so getrollt haben. Ich glaube Eddie. Aber das war so unnormal lustig. Habe als ich das Bild gesehen habe nochmal meinen ganzen Chat mit ihm gelesen. Aber leider hat er seinen Account gelöscht :("
+  },
+  {
+    title: "Karo 5",
+    imageUrl: "/karo_5.jpg",
+    storyText: "Du siehst ultra cool und attraktiv aus auf deinem Motorrad. Ich liebe das Bild. Das ist alles was ich sagen wollte. Hab einen schönen Tag :)"
+  },
+  {
+    title: "Karo 6",
+    imageUrl: "/karo_6.jpg",
+    storyText: "Wir waren glaube ich noch nie auf dem Weihnachtsmarkt in Hannover zusammen, aber aufjedenfall auf dem in Isernhagen NB. Der war zwar ultra klein, aber das ist trotzdem eine dicke Core Memory, vorallem weil wir danach richtig chillig bei dir sleepover gemacht haben."
+  },
+  {
+    title: "Karo 7",
+    imageUrl: "/karo_7.jpg",
+    storyText: "What do I need to say. Das ist der krasseste Abend in meinem Leben gewesen. Ich könnte über den Abend ein ganzes Buch schreiben und das würde bestseller werden. Und ich glaube das Kennzeichen wird das bedeutenste Kennzeichen in meinem Leben sein."
+  },
+  {
+    title: "Karo 8",
+    imageUrl: "/karo_8.jpg",
+    storyText: "Der Abend war so absurd. Ich komme zu dir mit dem Auto (immernoch eines der ersten Male) und plötzlich kommt der übelste Schneesturm gefühlt. Und als wir dann mit Schneesachen draußen waren war das wirklich meine beste Wintererinnerung."
+  },
+  {
+    title: "Karo 9",
+    imageUrl: "/karo_9.jpg",
+    storyText: "Das Bild musste rein weil das wirklich unnormal tough aussieht. Leider keine so fun story, ist nur da um dir zu zeigen dass du ultra cool bist und aussiehst."
+  },
+  {
+    title: "Karo 10",
+    imageUrl: "/karo_10.jpg",
+    storyText: "Für mich ist das so Sinnbild für die erste Zeit in Mannheim weil du mir die Kirche irgendwann relativ am Anfang gezeigt hattest. Und die sieht wirklich unnormal krass aus."
+  },
+  {
+    title: "Karo A",
+    imageUrl: "/karo_A.jpg",
+    storyText: "Das fässt einiges zusammen was ich wegen dir angefangen habe zu machen und zu mögen. Post Malone hören (weil das war der Song in der Story), Skaten (vorallem Ollie lernen am Anfang damit ich dich impressen kann) und allgemein viel mehr draußen sein. Crazy wenn ich denke dass wir auf genau der Straße aus der Story auch mal geskatet haben."
+  },
+  {
+    title: "Karo D",
+    imageUrl: "/karo_D.jpg",
+    storyText: "Ich wünschte ich hätte ein Bild von dem Salat mit geriebenem Käse drauf gehabt. Aber das reicht auch als Bild dafür wie random das Essen im Hotel in Griechenland war. Aber trotzdem war der Griechenland Urlaub eine 10 von 10 mit dir."
+  },
+  {
+    title: "Kreuz 1",
+    imageUrl: "/kreuz_1.jpg",
+    storyText: "Ehrlich gesagt einfach ein mega cooles Bild. Ich dachte mir in dem Moment du siehst todes krass aus auf dem Motorrad und habe das Bild gemacht. Und denke ich immernoch jedes Mal wenn ich dich auf deinem Motorrad sehe."
+  },
+  {
+    title: "Kreuz 2",
     imageUrl: "/kreuz_2.jpg",
-    storyText: "The Two of Clubs represents intellectual partnership and collaborative thinking. This card appears when we find someone who complements our mental abilities and shares our vision. It encourages us to value the power of combined minds working toward common goals."
+    storyText: "Das Porschemuseum ist auch eine sehr sehr gute Erinnerung mit dir. Ich glaube das war auch gefühlt das erste Mal, dass wir in der Umgebung von Mannheim richtig was gemacht haben und auch das erste mal seit dem Semesterferien wo wir uns wieder richtig gut verstanden haben."
   },
   {
-    title: "Black Joker",
-    imageUrl: "/placeholder.svg?height=400&width=300",
-    storyText: "The Black Joker represents the trickster energy and the power of humor to transform difficult situations. This card reminds us not to take ourselves too seriously and that sometimes the best way to deal with life's challenges is through laughter and a change of perspective."
+    title: "Kreuz 3",
+    imageUrl: "/kreuz_3.jpg",
+    storyText: "Egal wo wir jeweils sind, wie spät es gerade ist, was wir jeweils gerade machen, du kannst dir sicher sein, dass ich lieber in Griechenland mit dir wäre."
   },
   {
-    title: "Red Joker",
-    imageUrl: "/placeholder.svg?height=400&width=300",
-    storyText: "The Red Joker embodies playful spirit and spontaneous joy. This card encourages us to embrace our inner child and to find delight in unexpected moments. It reminds us that play is not frivolous but essential for creativity, healing, and maintaining our connection to wonder."
+    title: "Kreuz 4",
+    imageUrl: "/kreuz_4.jpg",
+    storyText: "Dein Körper: 10 von 10. Deine Bräune: 10 von 10. Deine Nägel: 10 von 10. Dein Kleid 10 von 10. Die Pose: 10 von 10. Du bist unnormal heiß."
   },
   {
-    title: "The Fool's Journey",
-    imageUrl: "/placeholder.svg?height=400&width=300",
-    storyText: "The Fool's Journey represents the courage to begin anew, even when we don't know where the path will lead. This special card embodies the spirit of adventure and the willingness to trust in life's unfolding mystery. It reminds us that every expert was once a beginner, and every master was once a disaster."
+    title: "Kreuz 5",
+    imageUrl: "/kreuz_5.jpg",
+    storyText: "Hasi 1 (unten links) und Hasi 2 (oben rechts)."
+  },
+  {
+    title: "Pik 1",
+    imageUrl: "/pik_1.jpg",
+    storyText: "Der Limoncello des Todes. Das Bild habe ich aufjedenfall gemacht bevor wir getrunken haben weil danach hätte ich nicht die Kamera so gerade halten können. Aber alles was danach passiert ist, ist die unnormal witzigste und randomste Erinnerung aus dem Palermo Urlaub."
+  },
+  {
+    title: "Pik 2",
+    imageUrl: "/pik_2.jpg",
+    storyText: "Sir Fluffy Balls. I miss him. Jeden Abend ist er treu zu uns gekommen und hat sich neben uns gesetzt. Macht er bestimmt nicht bei allen."
+  },
+  {
+    title: "Pik 4",
+    imageUrl: "/pik_4.jpg",
+    storyText: "Als wir beim ersten Mal bei Frankys Farm waren. Da wussten wir noch garnichts über die Kaffees in Mannheim gefühlt. Inzwischen bist du darin gefühlt so gut wie ein richtiger Local der hier aufgewachsen bist."
+  },
+  {
+    title: "Pik 5",
+    imageUrl: "/pik_5.jpg",
+    storyText: "Das Bild wurde ca. 10 Minuten vor dem Make it Rain Incident aufgenommen. Noch überlegst du wahrscheinlich wie du am besten deine Karten gegen die Decke launchst damit die als kompletter Block wieder auf dem Boden klatschen."
+  },
+  {
+    title: "Pik 6",
+    imageUrl: "/pik_6.jpg",
+    storyText: "Das war unsere Straße wo das Airbnb war. Verrückt wenn man überlegt. Wir waren wirklich unnormal unter locals. Sozusagen sind wir jetzt halb Sizilianer."
+  },
+  {
+    title: "Pik 8",
+    imageUrl: "/pik_8.jpg",
+    storyText: "Ein reminder an den husstle Namens STADS durch den wir durchgehen mussten. #niewieder (also nicht bei STADS)."
+  },
+  {
+    title: "Pik 9",
+    imageUrl: "/pik_9.jpg",
+    storyText: "Die thinc! München Woche (Bootcamp). Damals waren wir noch so jung und naiv. Spaß aber wir wurden so für das Geld was die Startups an thinc bezahlt haben gemolken."
+  },
+  {
+    title: "Pik 10",
+    imageUrl: "/pik_10.jpg",
+    storyText: "Das war direkt nach dem Kickoff. Ich dachte die härteste STADS Zeit war vorbei. I was wrong."
+  },
+  {
+    title: "Pik A",
+    imageUrl: "/pik_A.jpg",
+    storyText: "Das war das erste Bild was ich gefunden habe, was ich auf deiner roten Kamera gefunden habe. Inzwischen war die schon an so vielen Orten. Hat sogar meinen Ass gesehen basically."
+  },
+  {
+    title: "Pik D",
+    imageUrl: "/pik_D.jpg",
+    storyText: "Als ich das Bild gemacht habe war es Nachts um 1 oder so und wir haben angefangen zu kochen um so 21 Uhr ca. Der Aufwand war nicht worth it, obwohl die Dumplings ehrlich ultra gut waren für unseren ersten Versuch."
+  },
+  {
+    title: "Pik J",
+    imageUrl: "/pik_J.jpg",
+    storyText: "Man sieht vom Angle des Bildes und dadurch dass es so verwackelt war, dass ich aufjedenfall schon einen dicken Limoncello getrunken hatte. Ich war so angetrunken, ich glaube der Typ der die Bestellung angenommen hat dachte ich bin ein betrunkener Obdachloser der Essen kaufen möchte."
+  },
+  {
+    title: "Pik K",
+    imageUrl: "/pik_K.jpg",
+    storyText: "Einer meiner Lieblingssachen mit dir zu machen sind die DIYs. Du hast eine richtig krasse künstlerische bzw. kreative Seite an dir. Ist sehr attraktiv."
   }
 ]
